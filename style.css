@@ -1,7 +1,3 @@
 :root {/*seletor raiz para variaveis*/
        --cor-da-letra: rgba(222, 255, 33, 0.623);
 }
-
-body,html{
-    background: linear-gradient( 190deg,#aaaade,#2d93e6,#0066ff,#5398ff,#9fc5ff,#bdd7fd,#2600ff,#7861f8)
-}

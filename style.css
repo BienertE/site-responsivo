@@ -1,3 +1,18 @@
-:root {/*seletor raiz para variaveis*/
-       --cor-da-letra: rgba(222, 255, 33, 0.623);
+
+@import url('style/header.css');
+*{ /*seletor universal para resetar as bordas*/
+   padding: 0px;
+   margin: 0px;
 }
+:root{ /*seletor raiz para variaveis*/
+       --cor-de-fundo: #bcbcee;
+       --cor-da-letra: #ffd000;
+       --cor-branco: #ffffff;
+}
+body{/*seletor body*/
+    background-color: var(--cor-de-fundo);
+}
+
+body,html{
+       background:linear-gradient(190deg,#0000ff,#00a2ffcd,#aa8dff,#47e7ff,#c814c5) ;
+   }

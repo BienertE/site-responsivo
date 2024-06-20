@@ -7,4 +7,14 @@
     background-position: center;
 }
 
-.cbecalho
+.cabecalho{
+    background-color: var(--cor-branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container__imagem{
+    padding: 1em; 
+    /*1em equivale a 16px*/; 
+}

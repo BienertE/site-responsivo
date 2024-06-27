@@ -9,6 +9,3 @@ body{/*seletor body*/
     background-color: var(--cor-de-fundo);
 }
 
-body,html{
-       background:linear-gradient(190deg,#0000ff,#00a2ffcd,#aa8dff,#47e7ff,#c814c5) ;
-   }
